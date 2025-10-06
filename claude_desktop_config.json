@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "taiga": {
+      "command": "/opt/anaconda3/envs/taiga_mcp/bin/python",
+      "args": ["-m", "app.server"],
+      "cwd": "/Users/saurabh/NerdyAlley/taiga-mcp",
+      "env": {
+        "TAIGA_API_URL": "https://api.taiga.io/api/v1",
+        "TAIGA_USERNAME": "",
+        "TAIGA_PASSWORD": "",
+        "DEBUG": "true"
+      }
+    }
+  }
+}

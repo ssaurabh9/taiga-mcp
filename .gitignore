@@ -209,4 +209,6 @@ __marimo__/
 
 # dev specific
 tehkhana/
-s
+
+# Node.js (reference implementation)
+old_node_implementation/
