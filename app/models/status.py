@@ -33,3 +33,15 @@ class TaskStatus(BaseModel):
     is_closed: bool
     color: str
     project: int
+
+
+class EpicStatus(BaseModel):
+    """Epic status model."""
+
+    id: int
+    name: str
+    slug: str
+    order: int
+    is_closed: bool
+    color: str
+    project: int
